@@ -45,3 +45,11 @@ from sklearn.model_selection import train_test_split
 # Fuente: https://www.kaggle.com/datasets/zzettrkalpakbal/full-filled-brain-stroke-dataset
 
 stroke_data = pd.read_csv("Data/full_data.csv")
+
+# Primero necesitamos saber que contiene nuestro data-set y sus contenidos, asi que
+# sacaremos diferentes metricas para mas adelante poder hacer decisiones mas
+# informadas
+
+print(stroke_data.head())
+
+print(stroke_data.info())
