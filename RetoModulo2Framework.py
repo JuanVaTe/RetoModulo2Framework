@@ -64,7 +64,7 @@ print(stroke_data.head())
 
 print(stroke_data.info())
 
-# Podemos observar que el data0set tiene 11 caracteristicas, 10 siendo variables indeoendientes
+# Podemos observar que el data-set tiene 11 caracteristicas, 10 siendo variables independientes
 # y 1 siendo la variable dependiente.
 # Asimismo, es necesario ver la documentacion para saber que significa cada cosa:
 # https://github.com/JuanVaTe/RetoModulo2Framework/blob/main/Images/documentation.png
