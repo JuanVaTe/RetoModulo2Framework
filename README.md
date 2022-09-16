@@ -1,4 +1,4 @@
-# Modulo 2: Implementacion de una tecnica de aprendizaje máquina sin el uso de un framework  
+# Módulo 2 Uso de framework o biblioteca de aprendizaje máquina para la implementación de una solución  
   
 *Juan Carlos Varela Téllez A01367002*  
 *Fecha de inicio: 09/09/2022*  
