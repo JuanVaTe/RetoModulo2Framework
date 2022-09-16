@@ -325,3 +325,15 @@ for trio in models:
 # Sin embargo, los modelos utilizados aun nos dejan con el aprendizaje de una biblioteca muy
 # completa. En un futuro cercano, se intentara utilizar nuevamente esta biblioteca
 # para poder hacer predicciones mucho mas certeras.
+
+# Por ultimo vamos a hacer unas predicciones con la ultima red neuronal
+
+# Ya que el modelo mas complejo fue este ultimo, vamos a hacer unas predicciones para
+# verificar estos resultados
+
+for i in range(15, 20):
+    print("Prediccion numero", i - 14, "======================")
+    print("Datos:", test_x_all.iloc[i])
+    print("Prediccion:", neural_network_full.predict(pd.DataFrame(test_x_all.iloc[0]).transpose()))
+    print("Realidad:", test_y_all.iloc[i])
+    print("=============================================")
